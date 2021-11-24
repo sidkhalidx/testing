@@ -1,6 +1,6 @@
 class UserNotifierMailer < ApplicationMailer
 
-  default from: 'Dua.shafiq@xprolabs.com'
+  default from: 'siddique.khalid@xprolabs.com'
 
   def send_signup_email(user)
     @user = user
